@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "mdprootroot",
+    "database": "sequelize",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "3308"
+  },
+  "test": {
+    "username": "root",
+    "password": "mdprootroot",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "mdprootroot",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

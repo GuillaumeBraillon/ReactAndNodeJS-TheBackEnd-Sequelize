@@ -1,0 +1,27 @@
+{
+  "name": "reactandnodejs-thebackend-sequelize",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Guillaume Braillon",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.1.0",
+    "npm-check-updates": "^4.0.1",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5",
+    "sequelize-automate": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
