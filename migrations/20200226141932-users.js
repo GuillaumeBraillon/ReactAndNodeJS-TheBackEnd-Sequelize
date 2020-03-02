@@ -20,7 +20,7 @@ module.exports = {
       phoneNumber: {
         type: Sequelize.STRING
       },
-      weekAvailable: {
+      available: {
         type: Sequelize.STRING
       },
       createdAt: {

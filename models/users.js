@@ -46,14 +46,14 @@ module.exports = (sequelize, DataTypes) => {
       comment: null,
       field: "phoneNumber"
     },
-    weekAvailable: {
+    available: {
       type: DataTypes.STRING(10),
       allowNull: false,
       defaultValue: null,
       primaryKey: false,
       autoIncrement: false,
       comment: null,
-      field: "weekAvailable"
+      field: "available"
     },
 });
 return Users;

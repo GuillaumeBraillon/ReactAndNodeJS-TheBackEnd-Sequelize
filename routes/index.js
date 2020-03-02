@@ -7,7 +7,7 @@ module.exports = (app) => {
 
   //Routes for the CRUD requests
 
-  //CREATE http://localhost:8000/users body 	firstName,lastName,email,phoneNumber,weekAvailable
+  //CREATE http://localhost:8000/users body 	firstName,lastName,email,phoneNumber,available
   app.post('/users', usersController.create);
 
   //READ All http://localhost:8000/users
@@ -16,7 +16,7 @@ module.exports = (app) => {
   //READ ONE http://localhost:8000/users/3
   app.get('/users/:userId', usersController.retrieve);
 
-  //UPDATE http://localhost:8000/users/5 body 	firstName,lastName,email,phoneNumber,weekAvailable
+  //UPDATE http://localhost:8000/users/5 body 	firstName,lastName,email,phoneNumber,available
   app.put('/users/:userId', usersController.update);
 
   //DELETE http://localhost:8000/users/1

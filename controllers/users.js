@@ -19,7 +19,7 @@ module.exports = {
         lastName: req.body.lastName,
         email: req.body.email,
         phoneNumber: req.body.phoneNumber,
-        weekAvailable: req.body.weekAvailable,
+        available: req.body.available,
       })
       .then(user => res.status(201).send(user))
       .catch(error => res.status(400).send(error));
